@@ -86,14 +86,3 @@ with open("kocsik.txt", "r", encoding="UTF-8") as f:
         lista.append(sor.strip().split(","))
 ```
 
-## Fontos tudnivalók
-
-- A `lista[0]` a lista első sora.
-- A `lista[-1]` a lista utolsó sora.
-- A `lista[0][1]` az első autó neve.
-- A `lista[0][2]` az első autó évszáma, de szövegként van eltárolva.
-- Az évszámokkal végzett matematikai műveletek előtt használd az `int()` függvényt.
-- A `len()` megadja a lista elemszámát.
-- A `min()` a legkisebb, a `max()` a legnagyobb értéket adja vissza.
-
-**Javaslat:** Először az 1–13. feladatot oldd meg, majd haladj tovább a feltételes kiválasztás, az összegzés, a minimum-maximum keresés és a keresés feladataival.
